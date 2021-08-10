@@ -96,7 +96,7 @@ import org.apache.beam.sdk.values.PCollection;
  * --zone=us-east1-d \
  * --parameters \
  * "inputTopic=projects/${PROJECT_ID}/topics/input-topic-name,\
- * windowDuration=5m,\
+ * windowDuration=1s,\
  * numShards=1,\
  * userTempLocation=gs://${OUTPUT_BUCKET}/tmp/,\
  * outputDirectory=gs://${OUTPUT_BUCKET}/output/,\
@@ -109,7 +109,7 @@ import org.apache.beam.sdk.values.PCollection;
  * --zone=us-east1-d \
  * --parameters \
  * "inputSubscription=projects/${PROJECT_ID}/subscriptions/input-subscription-name,\
- * windowDuration=5m,\
+ * windowDuration=1s,\
  * numShards=1,\
  * userTempLocation=gs://${OUTPUT_BUCKET}/tmp/,\
  * outputDirectory=gs://${OUTPUT_BUCKET}/output/,\
